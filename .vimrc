@@ -51,6 +51,8 @@ set cursorline " Highlight line containing cursor
 set ttyfast " Prevent slow scrolling
 set incsearch " Match on keypress instead of enter
 set nofoldenable " Disable code folding
+set tw=72 " Sets the width of text to 72 characters. Will not break words in two as text wraps
+set ww=h,l " Allows h and l to move to the next line
 
 " Tab settings (2 spaces)
 set shiftwidth=2
@@ -60,10 +62,10 @@ set expandtab
 colorscheme jellybeans
 
 " (...not so) Friendy reminders
-nnoremap <Left> :echoe "Use h (n)"<CR>
-nnoremap <Right> :echoe "Use l (u)"<CR>
-nnoremap <Up> :echoe "Use k (n)"<CR>
-nnoremap <Down> :echoe "Use j (y)"<CR>
+nnoremap <Left> :echoe "Use h"<CR>
+nnoremap <Right> :echoe "Use l"<CR>
+nnoremap <Up> :echoe "Use k"<CR>
+nnoremap <Down> :echoe "Use j"<CR>
 
 " Key remappings
 nnoremap <F3> :NumbersToggle<CR>
