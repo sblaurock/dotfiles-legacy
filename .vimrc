@@ -33,6 +33,9 @@ Plugin 'tpope/vim-surround'
 Plugin 'deris/vim-shot-f'
 Plugin 'raimondi/delimitmate'
 Plugin 'edsono/vim-matchit'
+Plugin 'spf13/PIV'
+Plugin 'captbaritone/better-indent-support-for-php-with-html'
+Plugin 'alvan/vim-closetag'
 
 call vundle#end()
 
@@ -139,7 +142,7 @@ nnoremap <leader>P :CtrlPModified<CR>
 " Open commands file in new tab
 nnoremap <leader>m :tabnew ~/.vim/commands<CR>
 " Ack
-nnoremap <leader>a :Ack 
+nnoremap <leader>a :Ack
 " Check syntax
 nnoremap <leader>s :SyntasticToggleMode<CR>
 " Toggle indentation (tabs / spaces)
@@ -395,7 +398,7 @@ augroup END
 
 " ag.vim
 if executable('ag')
-  nnoremap <leader>a :Ag 
+  nnoremap <leader>a :Ag
 endif
 
 " delimitMate
