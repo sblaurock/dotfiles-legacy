@@ -136,3 +136,6 @@ alias topcpu='ps wwaxr -o pid,stat,%cpu,time,command | head -10'
 if [[ -s "${ZDOTDIR:-$HOME}/.zalias-custom" ]]; then
   source "${ZDOTDIR:-$HOME}/.zalias-custom"
 fi
+
+# mmmmmm
+alias mmmmmm='say mmmmmm'
