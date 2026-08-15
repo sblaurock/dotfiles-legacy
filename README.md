@@ -1,4 +1,4 @@
-dotfiles
+dotfiles-legacy
 ========
 
 For use with [iTerm2 color scheme](https://github.com/mbadolato/iTerm2-Color-Schemes) 'Twilight'. Use `#1c1c1c` for terminal background and ANSI "black" value.
